@@ -101,3 +101,39 @@ main{
 .review3{
     margin-top: 100px;
 }
+
+@media screen and (max-width:500px){
+    .headline{
+        display: block;
+        text-align: center;
+    }
+    .title{
+        width: auto;
+    }
+    .rating,.rating1,.rating2,.rating3{
+        width: auto;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .reviews{
+        display: block;
+    }
+    .review_container{
+        width: auto;
+    }
+    .review1,.review2,.review3{
+        margin:0;
+        margin-bottom: 20px;
+    }
+}
+
+.attribution{
+    background-color: #502050;
+    color: #f7f2f7;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+.attribution a{
+    color: #ee68a4;
+}
